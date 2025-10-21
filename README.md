@@ -86,13 +86,11 @@ results = model.predict(
 
 ## 📈 Results
 
-```markdown
 ### Predictions
 
 ![Predicted Image 1](results/predictions/Chair.jpg)
 ![Predicted Image 2](results/predictions/Sofa.jpg)
 ![Predicted Image 3](results/predictions/Table.jpg)
-```
 
 ---
 
