@@ -88,24 +88,18 @@ results = model.predict(
 
 ### Predictions
 
-<p float="left">
-  <figure>
-      <img src="results/predictions/Chair.jpg" width="200" />
-      <figcaption>Chair</figcaption>
-  </figure>
-  <figure>
-      <img src="results/predictions/Sofa.jpg" width="200" />
-      <figcaption>Sofa</figcaption>
-  </figure>
-  <figure>
-      <img src="results/predictions/Table.jpg" width="200" />
-      <figcaption>Table</figcaption>
-  </figure>
-</p>
-
-![Predicted Image 1](results/predictions/Chair.jpg)
-![Predicted Image 2](results/predictions/Sofa.jpg)
-![Predicted Image 3](results/predictions/Table.jpg)
+<table>
+  <tr>
+    <td><img src="results/predictions/Chair.jpg" width="200"></td>
+    <td><img src="results/predictions/Sofa.jpg" width="200"></td>
+    <td><img src="results/predictions/Table.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Chair</td>
+    <td align="center">Sofa</td>
+    <td align="center">Table</td>
+  </tr>
+</table>
 
 ---
 
