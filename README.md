@@ -115,7 +115,7 @@ You can include a figure of the **results.png** (from `runs/train_yolov8/plots/r
 
 The dataset used for this project is stored in Google Drive.  
 - **Format:** ZIP of images and labels  
-- **Link:** [Download here]((https://drive.google.com/drive/folders/1rzZ_pppwEoRIkaw8YeZU98_WMbWm0QLP?usp=sharing))
+**Link:** [Download here](https://drive.google.com/drive/folders/1rzZ_pppwEoRIkaw8YeZU98_WMbWm0QLP?usp=sharing)
 
 * Empty folders in the repo contain `.gitkeep` placeholders to maintain scaffolding.
 
