@@ -86,17 +86,13 @@ results = model.predict(
 
 ## 📈 Results
 
-You can showcase model predictions and evaluation metrics using images or plots.
-To include them in the README:
-
 ```markdown
-### Example Predictions
+### Predictions
 
-![Predicted Image 1](results/predictions/image1.png)
-![Predicted Image 2](results/predictions/image2.png)
+![Predicted Image 1](results/predictions/Chair.jpg)
+![Predicted Image 2](results/predictions/Sofa.jpg)
+![Predicted Image 3](results/predictions/Table.jpg)
 ```
-
-> **Tip:** Save the most representative predictions in the `results/predictions/` folder and reference them like above.
 
 ---
 
