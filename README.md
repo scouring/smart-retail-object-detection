@@ -90,9 +90,9 @@ results = model.predict(
 
 <table>
   <tr>
-    <td><img src="results/predictions/Chair.jpg" width="200"></td>
-    <td><img src="results/predictions/Sofa.jpg" width="200"></td>
-    <td><img src="results/predictions/Table.jpg" width="200"></td>
+    <td><img src="results/predictions/Chair.jpg" width="300"></td>
+    <td><img src="results/predictions/Sofa.jpg" width="300"></td>
+    <td><img src="results/predictions/Table.jpg" width="300"></td>
   </tr>
   <tr>
     <td align="center">Chair</td>
@@ -109,14 +109,14 @@ results = model.predict(
 
 <table>
   <tr>
-    <td><img src="evaluation/train_yolov8/confusion_matrix.png" width="200"></td>
-    <td><img src="evaluation/train_yolov8/BoxF1_curve.png" width="200"></td>
-    <td><img src="evaluation/train_yolov8/results.png" width="200"></td>
+    <td><img src="evaluation/train_yolov8/confusion_matrix.png" width="300"></td>
+    <td><img src="evaluation/train_yolov8/BoxF1_curve.png" width="300"></td>
+    <td><img src="evaluation/train_yolov8/results.png" width="300"></td>
   </tr>
   <tr>
     <td align="center">Confusion Matrix</td>
     <td align="center">F1 Curve</td>
-    <td align="center">Loss, Precision, Recall</td>
+    <td align="center">Loss, Precision = 0.99, Recall = 0.995</td>
   </tr>
 </table>
 
