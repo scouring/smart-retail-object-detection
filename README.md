@@ -98,8 +98,8 @@ results = model.predict(
 
 ### Model Performance
 
-![YOLOv8 F1 curve](evaluation/train_yolov8/results.png)
-![YOLOv8 Confusion Matrix](evaluation/train_yolov8/results.png)
+![YOLOv8 Confusion Matrix](evaluation/train_yolov8/confusion_matrix.png)
+![YOLOv8 F1 curve](evaluation/train_yolov8/BoxF1_curve.png)
 ![YOLOv8 Results](evaluation/train_yolov8/results.png)
 
 * ## Dataset
