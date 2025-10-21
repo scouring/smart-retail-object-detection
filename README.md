@@ -88,6 +88,21 @@ results = model.predict(
 
 ### Predictions
 
+<p float="left">
+  <figure>
+      <img src="results/predictions/Chair.jpg" width="200" />
+      <figcaption>Chair</figcaption>
+  </figure>
+  <figure>
+      <img src="results/predictions/Sofa.jpg" width="200" />
+      <figcaption>Sofa</figcaption>
+  </figure>
+  <figure>
+      <img src="results/predictions/Table.jpg" width="200" />
+      <figcaption>Table</figcaption>
+  </figure>
+</p>
+
 ![Predicted Image 1](results/predictions/Chair.jpg)
 ![Predicted Image 2](results/predictions/Sofa.jpg)
 ![Predicted Image 3](results/predictions/Table.jpg)
