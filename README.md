@@ -111,12 +111,15 @@ You can include a figure of the **results.png** (from `runs/train_yolov8/plots/r
 ![YOLOv8 Results](results/train_yolov8/results.png)
 ```
 
----
+* ## Dataset
+
+The dataset used for this project is stored in Google Drive.  
+- **Format:** ZIP of images and labels  
+- **Link:** [Download here]((https://drive.google.com/drive/folders/1rzZ_pppwEoRIkaw8YeZU98_WMbWm0QLP?usp=sharing))
+
+* Empty folders in the repo contain `.gitkeep` placeholders to maintain scaffolding.
 
 ## 📌 Notes
-
-* Only a **sample of the dataset** is included; full dataset is available [here]([#](https://drive.google.com/drive/folders/1rzZ_pppwEoRIkaw8YeZU98_WMbWm0QLP?usp=drive_link))
-* Empty folders in the repo contain `.gitkeep` placeholders to maintain scaffolding.
 
 * [YOLOv8 Documentation](https://docs.ultralytics.com/)
 * [Ultralytics GitHub](https://github.com/ultralytics/ultralytics)
