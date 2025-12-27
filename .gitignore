@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+yolo_cpu
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# ONNX / Model files
+*.onnx
+best.onnx
+
+# Dataset / Images
+images/
+
+# Docker / Build
+*.dockerfile
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
