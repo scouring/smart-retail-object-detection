@@ -4,6 +4,8 @@ import numpy as np
 import onnxruntime as ort
 from pathlib import Path
 
+print("onnx-inference.py started")
+
 MODEL_PATH = "best.onnx"
 IMAGE_DIR = Path("images/")
 CONF_THRESHOLD = 0.25
