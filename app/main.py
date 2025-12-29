@@ -5,17 +5,15 @@ import cv2
 import numpy as np
 import io
 from app.onnx_inference import load_model, infer
+from pathlib import Path
 
 app = FastAPI()
 session = load_model()
-templates = Jinja2Templates(directory="app/templates")
+templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
-    return templates.TemplateResponse(
-        "index.html",
-        {"request": request}
-    )
+    return templates.TemplateResponse("index.html", {"request": request})
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
@@ -23,8 +21,5 @@ async def predict(file: UploadFile = File(...)):
     nparr = np.frombuffer(contents, np.uint8)
     img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
     annotated = infer(session, img)
-
-    # Encode annotated image as JPEG for response
     _, img_encoded = cv2.imencode('.jpg', annotated)
     return StreamingResponse(io.BytesIO(img_encoded.tobytes()), media_type="image/jpeg")
-

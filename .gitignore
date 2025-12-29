@@ -7,7 +7,7 @@ __pycache__/
 .venv/
 env/
 venv/
-yolo_cpu
+.venv
 
 # Jupyter / Colab
 .ipynb_checkpoints/
